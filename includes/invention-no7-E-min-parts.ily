@@ -60,7 +60,7 @@ rightHand = \relative b' {
 }
 
 leftHand = \relative e {
-  \clef bass
+  \clef treble
   \global
   e8\mordent e, r4 r8 b''16 a  g fs g e |
   b'8 b, r4 r8 fs''16 e  ds cs ds b |

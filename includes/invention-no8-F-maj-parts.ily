@@ -60,8 +60,8 @@ rightHand = \relative f' {
   \bar "|."
 }
 
-leftHand = \relative f {
-  \clef bass
+leftHand = \relative f' {
+  \clef treble
   \global
   R2.
   r8 f a f c' f, |
@@ -70,7 +70,7 @@ leftHand = \relative f {
   \clef treble \repeat unfold 3 { a'16 c bf c } |
   \repeat unfold 3 { f,16 a g a } |
   \repeat unfold 3 { d,16 f e f } |
-  \clef bass b,8 g c g e' c |
+  \clef treble b,8 g c g e' c |
   
   \barNumberCheck 9
   f16 g f e  d e d c  b c b a |

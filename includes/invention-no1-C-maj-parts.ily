@@ -44,8 +44,8 @@ rightHand = \relative c' {
   \bar "|."
 }
 
-leftHand = \relative c {
-  \clef bass
+leftHand = \relative c' {
+  \clef treble
   \global
   r2 r16 c d e  f d e c |
   g'8 g, r4 r16 g' a b  c a b g |
@@ -61,7 +61,7 @@ leftHand = \relative c {
   g,16 g' f e  d f e g  f8 e f d |
   e16 a g f  e g f a  g8 f g e |
   f16 bf a g  f a g bf  a g f e  d f e g |
-  f16 e d c  b d c e  \clef bass d c b a  gs b a c |
+  f16 e d c  b d c e  \clef treble d c b a  gs b a c |
   b8 e, d'8.\mordent e16  c b a g  fs a gs b |
   a16 c b d  c e d f  e8 a, e' e, |
   a8 a, r4 r16 e'' d c  b d cs e |

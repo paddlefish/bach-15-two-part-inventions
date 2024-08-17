@@ -90,7 +90,7 @@ rightHand = \relative d' {
 }
 
 leftHand = \relative d {
-  \clef bass
+  \clef treble
   \global
   R4. |
   R4. |

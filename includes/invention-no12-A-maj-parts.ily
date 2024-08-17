@@ -39,7 +39,7 @@ rightHand = \relative a' {
   g16 e' cs g e g  cs e cs g e g  fs8 r r  r16 gs, b d gs fs |
   
   \barNumberCheck 17
-  e8 r r  r16 \clef bass fs, a cs fs e  d8 r r r16 e, gs b e d \clef treble |
+  e8 r r  r16 \clef treble fs, a cs fs e  d8 r r r16 e, gs b e d \clef treble |
   cs16 a cs e a e  cs' a cs e a fs  d fs a fs d fs  b, d fs d b d |
   gs,8 b d  fs e b  fs' e a,  e' d gs, |
   d'8 cs e,  fs16 gs a b cs d  gs, e gs b e b  gs' e b' gs e gs |
@@ -49,7 +49,7 @@ rightHand = \relative a' {
 }
 
 leftHand = \relative a {
-  \clef bass
+  \clef treble
   \global
   a16 b cs b a gs  fs gs a gs fs e  d fs a fs d fs  b, d fs d b d |
   gs,8 b gs  e fs gs  a4 r8 r4 r8 |

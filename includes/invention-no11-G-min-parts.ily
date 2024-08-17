@@ -52,7 +52,7 @@ rightHand = \relative d' {
 }
 
 leftHand = \relative g, {
-  \clef bass
+  \clef treble
   \global
   g4 r8 g'  fs16 g a g  fs8 f |
   e16 f g f  e8 ef d g4\mordent fs8 |

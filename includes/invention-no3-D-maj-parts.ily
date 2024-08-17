@@ -93,7 +93,7 @@ rightHand = \relative d' {
 }
 
 leftHand = \relative d {
-  \clef bass
+  \clef treble
   \global
   \partial 8 r8
   R4. |
@@ -122,7 +122,7 @@ leftHand = \relative d {
   cs,8 as'16 gs as8 |
   b16( a g fs e d) |
   e16( d fs e d cs) |
-  \clef bass d16[ e] fs8 fs, |
+  \clef treble d16[ e] fs8 fs, |
   b8 fs d |
   
   \barNumberCheck 25

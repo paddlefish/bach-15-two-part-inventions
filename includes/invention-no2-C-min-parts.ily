@@ -57,7 +57,7 @@ rightHand = \relative c'' {
 }
 
 leftHand = \relative c' {
-  \clef bass
+  \clef treble
   \global
   R1 |
   R1 |
@@ -73,7 +73,7 @@ leftHand = \relative c' {
   \barNumberCheck 9
   ef16 bf c bf  g'4~  g16 bf, c bf  af'4~ |
   af16 bf, ef d  g f af g  c bf af g  f bf af bf |
-  g8\noBeam \clef bass ef,16 f  g a bf d, ef f ef c  c' bf a g |
+  g8\noBeam \clef treble ef,16 f  g a bf d, ef f ef c  c' bf a g |
   fs ef' d c  bf a g fs  g a g a  \tag layout { a8.\trill g32 a }
                                   \tag midi   { bf32 a bf a bf a g a } |
   bf16 a g a  bf c d8  d\prall c r c |
@@ -85,7 +85,7 @@ leftHand = \relative c' {
   bf16 f g f  d'4~  d16 f, g f  ef'4~ |
   ef16 f, bf a  d c ef d  g f ef d  c f ef f |
   d16 f ef f  bf, d c d  g, a bf c  a bf c d |
-  bf16 c d ef  f ef g f  ef d c ef  \clef bass a,4~ |
+  bf16 c d ef  f ef g f  ef d c ef  \clef treble a,4~ |
   a16 d, g fs  bf a c bf  ef d c bf  a d c d |
   b16 f' ef d  c bf af g  f ef d c  g'8 g, |
   c8. d16  ef f g8  g\prall f r f |

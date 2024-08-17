@@ -100,7 +100,7 @@ rightHand = \relative e'' {
 }
 
 leftHand = \relative e {
-  \clef bass
+  \clef treble
   \global
   \repeat volta 2 {
     e8 fs gs | 
