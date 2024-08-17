@@ -50,15 +50,14 @@ rightHand = \relative e' {
   \bar "|."
 }
 
-leftHand = \relative a, {
-  \clef bass
+leftHand = \relative a {
   \global
   a8 a'4 gs8  a16 e a c  b e, b' d |
   c8 a gs e  a16 e a c  b e, b' d |
   c8 a c a  d16 a f a  d, f a, c |
   b8 d g b~ b16 g e g  c, e g, b |
   a8 c  d16 f b, d  g,8 b  c16 e a, c |
-  f,8 d  g16 g' f g  c,16 g' c e  d g, d' f |
+  f8 d  g16 g f g  c,16 g' c e  d g, d' f |
   e8 c b g  c16 g c e  d g, d' f |
   e8 c r4  r16 g' e g  c, e g, b |
   
@@ -68,7 +67,7 @@ leftHand = \relative a, {
   fs8 a b ds  r16 e c e  a, c e g |
   fs16 d b d  g, b d fs  e c a c  fs, a c8~ |
   c16 b c a  b8 b,  e16 e' b g  e b g b |
-  e,8 e' g bf  cs, r  r16 g'' f e |
+  e8 e g bf  cs, r  r16 g'' f e |
   d8 d, f af  b, r  r16 f'' e d | 
   c8 c, e fs  a, r  r16 e'' ds cs |
   
@@ -76,14 +75,14 @@ leftHand = \relative a, {
   b8 b, d f  gs, r  r16 d'' c b |
   c8 a gs e  a16 e a c  b e, b' d |
   c e a e  c e a, c  fs, a c a  fs a ds, fs |
-  e8 gs b gs  e b gs e |
+  e8 gs b gs  e b gs e' |
   a8 c e c  a c ds, r |
-  r16 b'' gs e  d b' gs d  c8 e gs, e' |
+  r16 b' gs e  d b' gs d  c8 e gs, e' |
   a,8 fs' b, gs'  c, a' d, bf' |
-  gs8 f d b  gs a d, e |
+  gs8 f d b  gs a d e |
   
   \barNumberCheck 25
-  f8 ds e e'  a,2\fermata |
+  f8 ds e e  a,2\fermata |
 }
 
 inventionThirteenMusic = 
@@ -106,8 +105,8 @@ inventionThirteenMidi =
     midiOutputFile = "invention-no13-A-min" % see midi-title.ily
   }
   <<
-    \new Staff = "upper" { \upperMidiInstrument \rightHand }
-    \new Staff = "lower" { \lowerMidiInstrument \leftHand }
+    \new Staff = "upper" { \transposition f \upperMidiInstrument \rightHand }
+    \new Staff = "lower" { \transposition f \lowerMidiInstrument \leftHand }
   >>
   \midi {
     \tempo 4 = 108
