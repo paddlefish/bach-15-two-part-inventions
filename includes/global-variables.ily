@@ -13,9 +13,9 @@ fermataUnderBarline = {
 }
 
 upperMidiInstrument = {
-  \set Staff.midiInstrument = #"acoustic grand"
+  \set Staff.midiInstrument = #"english horn"
 }
 
 lowerMidiInstrument = {
-  \set Staff.midiInstrument = #"acoustic grand"
+  \set Staff.midiInstrument = #"french horn"
 }

@@ -44,7 +44,7 @@ rightHand = \relative bf' {
 }
 
 leftHand = \relative bf {
-  \clef bass
+  \clef treble
   \global
   bf8 bf, d f  bf4 r |
   r8 bf, ef g  bf4 r |
@@ -66,7 +66,7 @@ leftHand = \relative bf {
   ef16 g32 a bf a g16  c16 ef,32 d c d ef16  d f32 g a g f16  
     bf d,32 c bf c d16 |
   c16 ef32 f g f ef16  a c,32 bf a bf c16  bf bf'32 c d c bf16  
-    \clef treble f' d bf' f \clef bass |
+    \clef treble f' d bf' f \clef treble |
   d16 f32 ef d ef f16  bf, d f, af  g ef32 f g f ef16  bf' g ef' bf |
   g16 bf32 af g af bf16  ef, g bf, d  c f,32 g a g f16  c' a ef' c |
   a16 c32 bf a bf c16  f, a c, ef  d bf'32 c d c bf16  f'8 f, |

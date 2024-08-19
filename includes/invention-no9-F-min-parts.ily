@@ -67,8 +67,8 @@ rightHand = \relative c'' {
   \bar "|."
 }
 
-leftHand = \relative f, {
-  \clef bass
+leftHand = \relative f {
+  \clef treble
   \global
   \set Score.tempoHideNote = ##t
   f8 f'~ f16 g af g  f ef df c |
@@ -78,7 +78,7 @@ leftHand = \relative f, {
   c16 bf af g  af8 f df'4~ |
   df16 c bf a  bf8 g \clef treble e'4~ |
   e16 f g af  bf8 g16 \once \omit Accidental e  df8 c |
-  \clef bass bf16 af g af  bf df c bf  af g f e |
+  \clef treble bf16 af g af  bf df c bf  af g f e |
   
   \barNumberCheck 9
   af8 f~ f16 g af g  f ef d c |

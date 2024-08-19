@@ -51,7 +51,7 @@ rightHand = \relative b' {
 }
 
 leftHand = \relative b, {
-  \clef bass
+  \clef treble
   \global
   b8 r d r e r d r |
   cs8 r as r b r g r |

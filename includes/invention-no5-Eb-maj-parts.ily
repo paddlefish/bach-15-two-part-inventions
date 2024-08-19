@@ -64,7 +64,7 @@ rightHand = \relative ef' {
 }
 
 leftHand = \relative ef {
-  \clef bass
+  \clef treble
   \global
   ef4\mordent ef, r16 ef'' d ef  c d bf c |
   af16 c bf c  af bf g af  f ef' d c  d ef c d |
